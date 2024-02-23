@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<div class="container-fluid py-5 bg-home">
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="colored-word-subtitle">bot search customized to your needs!</h1>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-4 col-sm-6 mb-5 d-flex justify-content-center align-items-center gap-3">
+            <div class="pricing-card text-center">
+                <h3>Essential</h3>
+                <div class="border-line"></div>
+                <h3><span class="pound-symbol">£</span> <b>Custom Price</b><span class="month-text">/month</span></h3> <br>
+                
+                <a href="{% url 'contact' %}" class="btn home-btn mb-5 text-dark">Buy Now</a>
+                <div class="pricing-points text-start">
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Limited outreach <br> volume per month.</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">24/7 support</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Basic letter customization</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Limited borough reach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-5 d-flex justify-content-center align-items-center gap-3">
+            <div class="pricing-card text-center purple-shadow">
+                <h3>Business Pro</h3>
+                <div class="border-line"></div>
+                <h3><span class="pound-symbol">£</span> <b>Custom Price</b><span class="month-text">/month</span></h3> <br>
+                
+                <a href="{% url 'contact' %}" class="btn home-btn mb-5 text-dark">Buy Now</a>
+                <div class="pricing-points text-start">
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Customised Design for letterhead</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Unlimited outreach volume per month.</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">24/7 support</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Unlimited borough reach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-5 d-flex justify-content-center align-items-center gap-3">
+            <div class="pricing-card text-center">
+                <h3>Business</h3>
+                <div class="border-line"></div>
+                <h3><span class="pound-symbol">£</span> <b>Custom Price</b><span class="month-text">/month</span></h3> <br>
+                
+                <a href="{% url 'contact' %}" class="btn home-btn mb-5 text-dark">Buy Now</a>
+                <div class="pricing-points text-start">
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Increased outreach volume per month</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">24/7 support</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">Customised Design for letterhead</p>
+                    </div>
+                    <div class="point my-4">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="text-dark">increase borough reach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script
+  src="https://kit.fontawesome.com/b2fe83387a.js"
+  crossorigin="anonymous"
+></script>
+{% endblock %}
